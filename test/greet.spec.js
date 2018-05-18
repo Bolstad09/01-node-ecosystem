@@ -13,39 +13,3 @@ describe('greet module', () => {
   });
 
 });
-
-
-
-
-
-
-// const greet = require('../lib/greet.js');
-
-// describe('greet module', () => {
-
-//   it('should return null when passed non string' , () => {
-
-//     const expected = null;
-
-//     const actual = greet();
-    
-//     expect(actual).toBe(expected);
-//   });
-
-//   it('should return null when passed non string' , () => {
-
-//     const expected = null;
-
-//     const actual = greet(0);
-    
-//     expect(actual).toBe(expected);
-//   });
-
-//   it('should return hello, [string] when passed non string' , () => {
-
-//     const expected = "hello, brittany";
-
-//     const actual = greet('Brittany');
-    
-//     expect(actual).toBe(expected);
-//   });
